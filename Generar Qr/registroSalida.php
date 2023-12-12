@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 //$sql = "INSERT INTO tu_tabla (nombre, edad) VALUES ('$curp')";//Cambiar por la instruccion update
 //$sql = "INSERT INTO tu_tabla (nombre, edad) VALUES ('$curp')";//Cambiar por la instruccion update
 $sql = "INSERT INTO `usuarios`(`id_usuario`, `numCuenta`, `nombre`, `apellidoP`, `apellidoM`, `rfc`, `numTelefonico`, 
-`tipo`, `costo`, `horaPrestamo`, `horaEntrega`, `total`) VALUES (NULL,'123456','NFF','F','CCC','SSD','231','PK','25','2023-12-15','2023-02-15','35165')";
+`tipo`, `costo`, `horaPrestamo`, `horaEntrega`, `total`) VALUES (NULL,'2021330023','Geraldin','Venegas','Margarito','VEMG030811','7121644082','Programador','$125','10-12-2023','11-12-2023','$125')";
 
 
 if ($conn->query($sql) === TRUE) {
